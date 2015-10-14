@@ -1,0 +1,14 @@
+PODS:
+  - HWAYCoreData (0.1.0)
+
+DEPENDENCIES:
+  - HWAYCoreData (from `../`)
+
+EXTERNAL SOURCES:
+  HWAYCoreData:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HWAYCoreData: a2c9c5185bfe6305f578f663d7f9c2d0fc7a5e12
+
+COCOAPODS: 0.38.2

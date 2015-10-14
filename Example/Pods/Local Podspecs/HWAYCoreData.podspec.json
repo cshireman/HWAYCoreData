@@ -1,0 +1,25 @@
+{
+  "name": "HWAYCoreData",
+  "version": "0.1.0",
+  "summary": "A short description of HWAYCoreData.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/HWAYCoreData",
+  "license": "MIT",
+  "authors": {
+    "Christopher Shireman": "chris@wearehathway.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/HWAYCoreData.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "HWAYCoreData": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

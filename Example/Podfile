@@ -1,6 +1,9 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
+pod 'Alamofire'
+pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git', :branch => 'xcode7'
+
 target 'HWAYCoreData_Example', :exclusive => true do
   pod "HWAYCoreData", :path => "../"
 end

@@ -1,0 +1,6 @@
+framework module Pods_HWAYCoreData_Tests {
+  umbrella header "Pods-HWAYCoreData_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

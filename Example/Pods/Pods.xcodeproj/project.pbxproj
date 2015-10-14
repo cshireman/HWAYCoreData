@@ -1,0 +1,810 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31F200F23B61207D34D47B71DAC349A0 /* HWAYCoreData-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38508FDA3FE0EFD6AD13C4C8DDAD0737 /* HWAYCoreData-dummy.m */; };
+		4EB3FF21D5703547792A39E99C3FC8A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C85BBDE763461EFBAD9B8CB341FFF3C5 /* Foundation.framework */; };
+		5DB89D684E8B169548D7E6641E362A7B /* Pods-HWAYCoreData_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0890B005B5CD11B29943F7AF485043A /* Pods-HWAYCoreData_Tests-dummy.m */; };
+		678D012476AA7B1BFDB24AA26DCD8E78 /* Pods-HWAYCoreData_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAFDE99394810C54A16700B3AF924A4 /* Pods-HWAYCoreData_Example-dummy.m */; };
+		7D0F8B3CBAFBB9719073F9BD56B69DD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C85BBDE763461EFBAD9B8CB341FFF3C5 /* Foundation.framework */; };
+		A129D9297810DBE9F165D3BD46BAE6E6 /* Pods-HWAYCoreData_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A01A1E3AD3ABAF37A9BF7C51C73260C3 /* Pods-HWAYCoreData_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE67DEA307011DD2E6DE30C0710F891D /* HWAYCoreData-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60D770FF334005CE69D8E2827F4EDF1A /* HWAYCoreData-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B505D3891BCEBC7A0072A300 /* HWAYCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B505D3801BCEBC7A0072A300 /* HWAYCoreDataManager.swift */; settings = {ASSET_TAGS = (); }; };
+		B505D38A1BCEBC7A0072A300 /* HWAYCoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B505D3811BCEBC7A0072A300 /* HWAYCoreDataStack.swift */; settings = {ASSET_TAGS = (); }; };
+		B505D38B1BCEBC7A0072A300 /* HWAYImportOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B505D3821BCEBC7A0072A300 /* HWAYImportOperation.swift */; settings = {ASSET_TAGS = (); }; };
+		B505D38C1BCEBC7A0072A300 /* HWAYManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B505D3831BCEBC7A0072A300 /* HWAYManagedObject.swift */; settings = {ASSET_TAGS = (); }; };
+		B505D38D1BCEBC7A0072A300 /* HWAYManagedObjectType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B505D3841BCEBC7A0072A300 /* HWAYManagedObjectType.swift */; settings = {ASSET_TAGS = (); }; };
+		B505D38E1BCEBC7A0072A300 /* HWAYManagedObjectType+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = B505D3851BCEBC7A0072A300 /* HWAYManagedObjectType+Defaults.swift */; settings = {ASSET_TAGS = (); }; };
+		B505D38F1BCEBC7A0072A300 /* HWAYManagedObjectType+Find.swift in Sources */ = {isa = PBXBuildFile; fileRef = B505D3861BCEBC7A0072A300 /* HWAYManagedObjectType+Find.swift */; settings = {ASSET_TAGS = (); }; };
+		B505D3901BCEBC7A0072A300 /* HWAYManagedObjectType+Load.swift in Sources */ = {isa = PBXBuildFile; fileRef = B505D3871BCEBC7A0072A300 /* HWAYManagedObjectType+Load.swift */; settings = {ASSET_TAGS = (); }; };
+		B505D3911BCEBC7A0072A300 /* NSManagedObjectContext+Insert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B505D3881BCEBC7A0072A300 /* NSManagedObjectContext+Insert.swift */; settings = {ASSET_TAGS = (); }; };
+		BEEFFAA67471A67FC65DB0AD80229091 /* HWAYCoreData.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F5F9C3A20C5D0DB84E5EB02681360464 /* HWAYCoreData.bundle */; };
+		BFCBF62A56C14D8D3CD7F097AB6A18C9 /* Pods-HWAYCoreData_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2066983A92FB6D331968CA2EFC21E31 /* Pods-HWAYCoreData_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBB7C0DCC24825F84E53AA7C977B5A2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C85BBDE763461EFBAD9B8CB341FFF3C5 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		590CDA7DA91704CC125D9CF8482A6334 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 495908DB73D90D0D257622D05B4B4BBC;
+			remoteInfo = HWAYCoreData;
+		};
+		6046A633AE302379EA8FFEBD0D38F1FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 495908DB73D90D0D257622D05B4B4BBC;
+			remoteInfo = HWAYCoreData;
+		};
+		8AC9D76BBBD40BE6D95333FB41031333 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B0D42546D44BEB3838DBF30D0330773;
+			remoteInfo = "HWAYCoreData-HWAYCoreData";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03DCAF5FE2AA8F618296237E951B79DA /* Pods-HWAYCoreData_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HWAYCoreData_Tests-resources.sh"; sourceTree = "<group>"; };
+		2CAFDE99394810C54A16700B3AF924A4 /* Pods-HWAYCoreData_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HWAYCoreData_Example-dummy.m"; sourceTree = "<group>"; };
+		38508FDA3FE0EFD6AD13C4C8DDAD0737 /* HWAYCoreData-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HWAYCoreData-dummy.m"; sourceTree = "<group>"; };
+		4B80F8153BF8E86A38EDABD310637FD5 /* Pods_HWAYCoreData_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HWAYCoreData_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		501931CD8DDBC98B3780728EDE246F6B /* HWAYCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HWAYCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54ED4D56CF9E28A92011EFB26CD09FE8 /* Pods-HWAYCoreData_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HWAYCoreData_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		57F71A6468D765FC683D1484440D3A95 /* Pods-HWAYCoreData_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HWAYCoreData_Example.modulemap"; sourceTree = "<group>"; };
+		5DF8D8E978EB32C9304C8F49EC75D43F /* Pods-HWAYCoreData_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HWAYCoreData_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		60D770FF334005CE69D8E2827F4EDF1A /* HWAYCoreData-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HWAYCoreData-umbrella.h"; sourceTree = "<group>"; };
+		6D43ADFED44DAB4A9FED0C3103ED9E0B /* Pods-HWAYCoreData_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HWAYCoreData_Example-resources.sh"; sourceTree = "<group>"; };
+		6D9298D8B15803A52522122B60C74EB0 /* Pods-HWAYCoreData_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HWAYCoreData_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		7950D7E8BD1C4423CA84A69C18959B71 /* Pods-HWAYCoreData_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HWAYCoreData_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7C92A7D79EF643BC94C8E169A49FF96C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87F8D0821141D456F2AAEF41423AFD6F /* HWAYCoreData.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HWAYCoreData.xcconfig; sourceTree = "<group>"; };
+		880A765F30AF2F38A2ECDBCEE40F3A9D /* Pods-HWAYCoreData_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HWAYCoreData_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8B006B347432C78235BF85A1DACF2DEC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		907E2C6043A83CC6ABB0F0715362692F /* HWAYCoreData-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HWAYCoreData-prefix.pch"; sourceTree = "<group>"; };
+		9EF5C7AF75975C395DFCFA976243F3F3 /* HWAYCoreData-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "HWAYCoreData-Private.xcconfig"; sourceTree = "<group>"; };
+		A01A1E3AD3ABAF37A9BF7C51C73260C3 /* Pods-HWAYCoreData_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HWAYCoreData_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A73CEB1F165F2A67CC6195C4CFCE72B3 /* Pods-HWAYCoreData_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HWAYCoreData_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		ABC4F43B88CC3F8D8690FD44EA417EE0 /* Pods-HWAYCoreData_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HWAYCoreData_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B206F1C043889F14C274AB956E83F640 /* Pods-HWAYCoreData_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HWAYCoreData_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B505D3801BCEBC7A0072A300 /* HWAYCoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HWAYCoreDataManager.swift; sourceTree = "<group>"; };
+		B505D3811BCEBC7A0072A300 /* HWAYCoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HWAYCoreDataStack.swift; sourceTree = "<group>"; };
+		B505D3821BCEBC7A0072A300 /* HWAYImportOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HWAYImportOperation.swift; sourceTree = "<group>"; };
+		B505D3831BCEBC7A0072A300 /* HWAYManagedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HWAYManagedObject.swift; sourceTree = "<group>"; };
+		B505D3841BCEBC7A0072A300 /* HWAYManagedObjectType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HWAYManagedObjectType.swift; sourceTree = "<group>"; };
+		B505D3851BCEBC7A0072A300 /* HWAYManagedObjectType+Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HWAYManagedObjectType+Defaults.swift"; sourceTree = "<group>"; };
+		B505D3861BCEBC7A0072A300 /* HWAYManagedObjectType+Find.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HWAYManagedObjectType+Find.swift"; sourceTree = "<group>"; };
+		B505D3871BCEBC7A0072A300 /* HWAYManagedObjectType+Load.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HWAYManagedObjectType+Load.swift"; sourceTree = "<group>"; };
+		B505D3881BCEBC7A0072A300 /* NSManagedObjectContext+Insert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+Insert.swift"; sourceTree = "<group>"; };
+		B5E7A3205865B04F3C6AEF0EB1F810D2 /* Pods-HWAYCoreData_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HWAYCoreData_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BCB3B2FD74137037315BFDCE7068BD8C /* Pods_HWAYCoreData_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HWAYCoreData_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C85BBDE763461EFBAD9B8CB341FFF3C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D0890B005B5CD11B29943F7AF485043A /* Pods-HWAYCoreData_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HWAYCoreData_Tests-dummy.m"; sourceTree = "<group>"; };
+		D2066983A92FB6D331968CA2EFC21E31 /* Pods-HWAYCoreData_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HWAYCoreData_Example-umbrella.h"; sourceTree = "<group>"; };
+		D5ABE0788DF09228E4966229D516729B /* HWAYCoreData.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HWAYCoreData.modulemap; sourceTree = "<group>"; };
+		DEB6CD169E8AA2B4675312992A2C9F02 /* Pods-HWAYCoreData_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HWAYCoreData_Tests.modulemap"; sourceTree = "<group>"; };
+		E1D544D6F23E98E816E610B9154CE7E7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4BC27F65F5BE3F003326D0349318514 /* Pods-HWAYCoreData_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HWAYCoreData_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F5F9C3A20C5D0DB84E5EB02681360464 /* HWAYCoreData.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HWAYCoreData.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D8DDD083591063E7FF93458B4D09D0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB3FF21D5703547792A39E99C3FC8A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512C497BF337E5FA099DD0DD952CC6D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D0F8B3CBAFBB9719073F9BD56B69DD7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BAAB656DFB4F04C26409422DDD433BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4BABA8236709F7AAAB3303E9E83DACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB7C0DCC24825F84E53AA7C977B5A2E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		112FFBC0B47802A4224FFD922C537A52 /* Pods-HWAYCoreData_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E1D544D6F23E98E816E610B9154CE7E7 /* Info.plist */,
+				DEB6CD169E8AA2B4675312992A2C9F02 /* Pods-HWAYCoreData_Tests.modulemap */,
+				B206F1C043889F14C274AB956E83F640 /* Pods-HWAYCoreData_Tests-acknowledgements.markdown */,
+				E4BC27F65F5BE3F003326D0349318514 /* Pods-HWAYCoreData_Tests-acknowledgements.plist */,
+				D0890B005B5CD11B29943F7AF485043A /* Pods-HWAYCoreData_Tests-dummy.m */,
+				6D9298D8B15803A52522122B60C74EB0 /* Pods-HWAYCoreData_Tests-frameworks.sh */,
+				03DCAF5FE2AA8F618296237E951B79DA /* Pods-HWAYCoreData_Tests-resources.sh */,
+				A01A1E3AD3ABAF37A9BF7C51C73260C3 /* Pods-HWAYCoreData_Tests-umbrella.h */,
+				5DF8D8E978EB32C9304C8F49EC75D43F /* Pods-HWAYCoreData_Tests.debug.xcconfig */,
+				880A765F30AF2F38A2ECDBCEE40F3A9D /* Pods-HWAYCoreData_Tests.release.xcconfig */,
+			);
+			name = "Pods-HWAYCoreData_Tests";
+			path = "Target Support Files/Pods-HWAYCoreData_Tests";
+			sourceTree = "<group>";
+		};
+		1F3D865E6B4972F7DBCD9A6DD9FFD597 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B505D3801BCEBC7A0072A300 /* HWAYCoreDataManager.swift */,
+				B505D3811BCEBC7A0072A300 /* HWAYCoreDataStack.swift */,
+				B505D3821BCEBC7A0072A300 /* HWAYImportOperation.swift */,
+				B505D3831BCEBC7A0072A300 /* HWAYManagedObject.swift */,
+				B505D3841BCEBC7A0072A300 /* HWAYManagedObjectType.swift */,
+				B505D3851BCEBC7A0072A300 /* HWAYManagedObjectType+Defaults.swift */,
+				B505D3861BCEBC7A0072A300 /* HWAYManagedObjectType+Find.swift */,
+				B505D3871BCEBC7A0072A300 /* HWAYManagedObjectType+Load.swift */,
+				B505D3881BCEBC7A0072A300 /* NSManagedObjectContext+Insert.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		359EA0AF600C56CD3F34EB5A6BA29C05 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5ABE0788DF09228E4966229D516729B /* HWAYCoreData.modulemap */,
+				87F8D0821141D456F2AAEF41423AFD6F /* HWAYCoreData.xcconfig */,
+				9EF5C7AF75975C395DFCFA976243F3F3 /* HWAYCoreData-Private.xcconfig */,
+				38508FDA3FE0EFD6AD13C4C8DDAD0737 /* HWAYCoreData-dummy.m */,
+				907E2C6043A83CC6ABB0F0715362692F /* HWAYCoreData-prefix.pch */,
+				60D770FF334005CE69D8E2827F4EDF1A /* HWAYCoreData-umbrella.h */,
+				8B006B347432C78235BF85A1DACF2DEC /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HWAYCoreData";
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C85BBDE763461EFBAD9B8CB341FFF3C5 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		628212B60E3F4525B9B69BE4D206F643 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				839FEEB536F4DA1C5FC3202670392A4B /* Pods-HWAYCoreData_Example */,
+				112FFBC0B47802A4224FFD922C537A52 /* Pods-HWAYCoreData_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				B1FC372A1631FAC6733A09D922A9EC7B /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				628212B60E3F4525B9B69BE4D206F643 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		836DD0003E0FF0BCBA3BD22EF5DED85C /* HWAYCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				D68D3DA2F6484F9E0C5B91940F3CA9F9 /* Pod */,
+				359EA0AF600C56CD3F34EB5A6BA29C05 /* Support Files */,
+			);
+			name = HWAYCoreData;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		839FEEB536F4DA1C5FC3202670392A4B /* Pods-HWAYCoreData_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7C92A7D79EF643BC94C8E169A49FF96C /* Info.plist */,
+				57F71A6468D765FC683D1484440D3A95 /* Pods-HWAYCoreData_Example.modulemap */,
+				54ED4D56CF9E28A92011EFB26CD09FE8 /* Pods-HWAYCoreData_Example-acknowledgements.markdown */,
+				A73CEB1F165F2A67CC6195C4CFCE72B3 /* Pods-HWAYCoreData_Example-acknowledgements.plist */,
+				2CAFDE99394810C54A16700B3AF924A4 /* Pods-HWAYCoreData_Example-dummy.m */,
+				7950D7E8BD1C4423CA84A69C18959B71 /* Pods-HWAYCoreData_Example-frameworks.sh */,
+				6D43ADFED44DAB4A9FED0C3103ED9E0B /* Pods-HWAYCoreData_Example-resources.sh */,
+				D2066983A92FB6D331968CA2EFC21E31 /* Pods-HWAYCoreData_Example-umbrella.h */,
+				B5E7A3205865B04F3C6AEF0EB1F810D2 /* Pods-HWAYCoreData_Example.debug.xcconfig */,
+				ABC4F43B88CC3F8D8690FD44EA417EE0 /* Pods-HWAYCoreData_Example.release.xcconfig */,
+			);
+			name = "Pods-HWAYCoreData_Example";
+			path = "Target Support Files/Pods-HWAYCoreData_Example";
+			sourceTree = "<group>";
+		};
+		B1FC372A1631FAC6733A09D922A9EC7B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				836DD0003E0FF0BCBA3BD22EF5DED85C /* HWAYCoreData */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5F9C3A20C5D0DB84E5EB02681360464 /* HWAYCoreData.bundle */,
+				501931CD8DDBC98B3780728EDE246F6B /* HWAYCoreData.framework */,
+				BCB3B2FD74137037315BFDCE7068BD8C /* Pods_HWAYCoreData_Example.framework */,
+				4B80F8153BF8E86A38EDABD310637FD5 /* Pods_HWAYCoreData_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D68D3DA2F6484F9E0C5B91940F3CA9F9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1F3D865E6B4972F7DBCD9A6DD9FFD597 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		28923D2545A6C18936F7719CB7DD7934 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A129D9297810DBE9F165D3BD46BAE6E6 /* Pods-HWAYCoreData_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		619CB7933323990FD91EED6D0EF8AADF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE67DEA307011DD2E6DE30C0710F891D /* HWAYCoreData-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93AF1DDF6CC12964046ED58D8CCF06B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCBF62A56C14D8D3CD7F097AB6A18C9 /* Pods-HWAYCoreData_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		495908DB73D90D0D257622D05B4B4BBC /* HWAYCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DE9732A9DB35D095211EE51D2F89F47 /* Build configuration list for PBXNativeTarget "HWAYCoreData" */;
+			buildPhases = (
+				6621CF12AF7B33749BD445F8B4B59E02 /* Sources */,
+				B4BABA8236709F7AAAB3303E9E83DACC /* Frameworks */,
+				E7481D5563DE4688BA8FCB3751610E4F /* Resources */,
+				619CB7933323990FD91EED6D0EF8AADF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48B062AAC608A46D8B5AA6CAD461F4DA /* PBXTargetDependency */,
+			);
+			name = HWAYCoreData;
+			productName = HWAYCoreData;
+			productReference = 501931CD8DDBC98B3780728EDE246F6B /* HWAYCoreData.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		75E65025221EA0368AB6017794E847BC /* Pods-HWAYCoreData_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27F5B3BFD2DC602834D3481A073DBE90 /* Build configuration list for PBXNativeTarget "Pods-HWAYCoreData_Example" */;
+			buildPhases = (
+				2652C0FE2C7ACDD9B2EDD84D07CD325D /* Sources */,
+				3D8DDD083591063E7FF93458B4D09D0B /* Frameworks */,
+				93AF1DDF6CC12964046ED58D8CCF06B1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C02A4AA5E358F69748A104738A11DD3A /* PBXTargetDependency */,
+			);
+			name = "Pods-HWAYCoreData_Example";
+			productName = "Pods-HWAYCoreData_Example";
+			productReference = BCB3B2FD74137037315BFDCE7068BD8C /* Pods_HWAYCoreData_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		95C42E4F2ED3EAEB90E879ADB6A2FCB5 /* Pods-HWAYCoreData_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBD3C2C2F4221D9B5F49F37B0A388783 /* Build configuration list for PBXNativeTarget "Pods-HWAYCoreData_Tests" */;
+			buildPhases = (
+				9234A6789F20B132F49F670AA515236E /* Sources */,
+				512C497BF337E5FA099DD0DD952CC6D8 /* Frameworks */,
+				28923D2545A6C18936F7719CB7DD7934 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6C41114D3DF21DAF511FCD6F4EE1799 /* PBXTargetDependency */,
+			);
+			name = "Pods-HWAYCoreData_Tests";
+			productName = "Pods-HWAYCoreData_Tests";
+			productReference = 4B80F8153BF8E86A38EDABD310637FD5 /* Pods_HWAYCoreData_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B0D42546D44BEB3838DBF30D0330773 /* HWAYCoreData-HWAYCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E31B4359C2159A286DE1A889C975B5B /* Build configuration list for PBXNativeTarget "HWAYCoreData-HWAYCoreData" */;
+			buildPhases = (
+				50E5BA874630F11F7B4B63CEC36A3F67 /* Sources */,
+				8BAAB656DFB4F04C26409422DDD433BE /* Frameworks */,
+				11E9857EADFE08F4CF593D73A8F12F3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HWAYCoreData-HWAYCoreData";
+			productName = "HWAYCoreData-HWAYCoreData";
+			productReference = F5F9C3A20C5D0DB84E5EB02681360464 /* HWAYCoreData.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				495908DB73D90D0D257622D05B4B4BBC /* HWAYCoreData */,
+				9B0D42546D44BEB3838DBF30D0330773 /* HWAYCoreData-HWAYCoreData */,
+				75E65025221EA0368AB6017794E847BC /* Pods-HWAYCoreData_Example */,
+				95C42E4F2ED3EAEB90E879ADB6A2FCB5 /* Pods-HWAYCoreData_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11E9857EADFE08F4CF593D73A8F12F3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7481D5563DE4688BA8FCB3751610E4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEEFFAA67471A67FC65DB0AD80229091 /* HWAYCoreData.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2652C0FE2C7ACDD9B2EDD84D07CD325D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678D012476AA7B1BFDB24AA26DCD8E78 /* Pods-HWAYCoreData_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E5BA874630F11F7B4B63CEC36A3F67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6621CF12AF7B33749BD445F8B4B59E02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B505D3901BCEBC7A0072A300 /* HWAYManagedObjectType+Load.swift in Sources */,
+				B505D38A1BCEBC7A0072A300 /* HWAYCoreDataStack.swift in Sources */,
+				B505D38E1BCEBC7A0072A300 /* HWAYManagedObjectType+Defaults.swift in Sources */,
+				B505D3911BCEBC7A0072A300 /* NSManagedObjectContext+Insert.swift in Sources */,
+				31F200F23B61207D34D47B71DAC349A0 /* HWAYCoreData-dummy.m in Sources */,
+				B505D3891BCEBC7A0072A300 /* HWAYCoreDataManager.swift in Sources */,
+				B505D38F1BCEBC7A0072A300 /* HWAYManagedObjectType+Find.swift in Sources */,
+				B505D38D1BCEBC7A0072A300 /* HWAYManagedObjectType.swift in Sources */,
+				B505D38C1BCEBC7A0072A300 /* HWAYManagedObject.swift in Sources */,
+				B505D38B1BCEBC7A0072A300 /* HWAYImportOperation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9234A6789F20B132F49F670AA515236E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB89D684E8B169548D7E6641E362A7B /* Pods-HWAYCoreData_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48B062AAC608A46D8B5AA6CAD461F4DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HWAYCoreData-HWAYCoreData";
+			target = 9B0D42546D44BEB3838DBF30D0330773 /* HWAYCoreData-HWAYCoreData */;
+			targetProxy = 8AC9D76BBBD40BE6D95333FB41031333 /* PBXContainerItemProxy */;
+		};
+		B6C41114D3DF21DAF511FCD6F4EE1799 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HWAYCoreData;
+			target = 495908DB73D90D0D257622D05B4B4BBC /* HWAYCoreData */;
+			targetProxy = 590CDA7DA91704CC125D9CF8482A6334 /* PBXContainerItemProxy */;
+		};
+		C02A4AA5E358F69748A104738A11DD3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HWAYCoreData;
+			target = 495908DB73D90D0D257622D05B4B4BBC /* HWAYCoreData */;
+			targetProxy = 6046A633AE302379EA8FFEBD0D38F1FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06CAA921B520DD6A16797F6FD8461DE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABC4F43B88CC3F8D8690FD44EA417EE0 /* Pods-HWAYCoreData_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HWAYCoreData_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HWAYCoreData_Example/Pods-HWAYCoreData_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HWAYCoreData_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AB099035C96B91F0C71BFBE5A3C2796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5E7A3205865B04F3C6AEF0EB1F810D2 /* Pods-HWAYCoreData_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HWAYCoreData_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HWAYCoreData_Example/Pods-HWAYCoreData_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HWAYCoreData_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		358025EB56E5D72AB464F0C3B7974BE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EF5C7AF75975C395DFCFA976243F3F3 /* HWAYCoreData-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HWAYCoreData/HWAYCoreData-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HWAYCoreData/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HWAYCoreData/HWAYCoreData.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HWAYCoreData;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39F3C588CD87B05D20CA0AE285DDA6B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DF8D8E978EB32C9304C8F49EC75D43F /* Pods-HWAYCoreData_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HWAYCoreData_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HWAYCoreData_Tests/Pods-HWAYCoreData_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HWAYCoreData_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		48AB626963CCE486189064D5F7A043B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 880A765F30AF2F38A2ECDBCEE40F3A9D /* Pods-HWAYCoreData_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HWAYCoreData_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HWAYCoreData_Tests/Pods-HWAYCoreData_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HWAYCoreData_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7DAEBA057074D1E4DEB5C30A88AD6D77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EF5C7AF75975C395DFCFA976243F3F3 /* HWAYCoreData-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = HWAYCoreData;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		80AB946427D263C33ED7007B94BFC98F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EF5C7AF75975C395DFCFA976243F3F3 /* HWAYCoreData-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HWAYCoreData/HWAYCoreData-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HWAYCoreData/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HWAYCoreData/HWAYCoreData.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HWAYCoreData;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B2BAEC8CB863CB14F6C16947459870CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EF5C7AF75975C395DFCFA976243F3F3 /* HWAYCoreData-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = HWAYCoreData;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DE9732A9DB35D095211EE51D2F89F47 /* Build configuration list for PBXNativeTarget "HWAYCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				358025EB56E5D72AB464F0C3B7974BE7 /* Debug */,
+				80AB946427D263C33ED7007B94BFC98F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27F5B3BFD2DC602834D3481A073DBE90 /* Build configuration list for PBXNativeTarget "Pods-HWAYCoreData_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB099035C96B91F0C71BFBE5A3C2796 /* Debug */,
+				06CAA921B520DD6A16797F6FD8461DE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E31B4359C2159A286DE1A889C975B5B /* Build configuration list for PBXNativeTarget "HWAYCoreData-HWAYCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2BAEC8CB863CB14F6C16947459870CA /* Debug */,
+				7DAEBA057074D1E4DEB5C30A88AD6D77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBD3C2C2F4221D9B5F49F37B0A388783 /* Build configuration list for PBXNativeTarget "Pods-HWAYCoreData_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F3C588CD87B05D20CA0AE285DDA6B0 /* Debug */,
+				48AB626963CCE486189064D5F7A043B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
