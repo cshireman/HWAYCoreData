@@ -22,42 +22,41 @@ typealias HWAYImportProcessingCallback = (JSON,HWAYImportProgressUpdateBlock) ->
 class HWAYImportOperation: NSOperation {
     var stack: HWAYCoreDataStack?
     var context: NSManagedObjectContext?
-    var delegate: ImportOperationDelegate?
+    var delegate: HWAYImportOperationDelegate?
     var url: String?
 
     var processingCallback: HWAYImportProcessingCallback?
 
     override func main() {
+        guard url != nil else {
+            fatalError("URL must be set")
+        }
+
+        guard stack != nil else {
+            fatalError("Core Data stack must be set")
+        }
+
         if context == nil {
             context = stack?.createChildContext()
         }
 
-        Alamofire.request(.GET, self.url)
+        Alamofire.request(.GET, self.url!)
             .responseJSON { (request, response, json) -> Void in
                 //Dispatch in background thread to prevent response handling on the main thread
                 dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), { () -> Void in
                     let jsonData: JSON = JSON(json.value!)
 
-                    self.processingCallback?(jsonData) { percent -> Void in
-                        dispatch_async(dispatch_get_main_queue(), { () -> Void in
-                            self.delegate?.importUpdatedWithPercentage(percent)
-                        })
-                    }
-
-                    if self.context?.hasChanges {
-                        do {
-                            try self.context?.save()
+                    self.context!.performChanges({ () -> () in
+                        self.processingCallback?(jsonData) { percent -> Void in
                             dispatch_async(dispatch_get_main_queue(), { () -> Void in
-                                self.delegate?.importCompleted()
+                                self.delegate?.importUpdatedWithPercentage(percent)
                             })
-                        } catch {
-                            NSLog("Error: \(error)")
                         }
-                    } else {
+
                         dispatch_async(dispatch_get_main_queue(), { () -> Void in
                             self.delegate?.importCompleted()
                         })
-                    }
+                    })
                 })
         }
     }

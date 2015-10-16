@@ -14,6 +14,10 @@ extension HWAYManagedObjectType {
         return []
     }
 
+    public static var externalIdField: String {
+        return "externalId"
+    }
+
     public static var sortedFetchRequest: NSFetchRequest {
         let request = NSFetchRequest(entityName: entityName)
         request.sortDescriptors = defaultSortDescriptors

@@ -9,11 +9,9 @@
 import Foundation
 import SwiftyJSON
 
-/** HWAYManagedObjectType protocol
-
-*/
 public protocol HWAYManagedObjectType: class {
     static var entityName: String { get }
+    static var externalIdField: String { get }
     static var defaultSortDescriptors: [NSSortDescriptor] { get }
 
     func loadFromJSON(data:JSON)

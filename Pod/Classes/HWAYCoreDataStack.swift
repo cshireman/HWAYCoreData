@@ -21,7 +21,6 @@ public class HWAYCoreDataStack: NSObject {
     - returns: The newly created stack
     */
     init(withStackName stackName:String){
-
             let fileManager = NSFileManager.defaultManager()
             let bundle = NSBundle.mainBundle()
             let documentDirectoryURL = try! fileManager.URLForDirectory(.DocumentDirectory,
@@ -31,11 +30,23 @@ public class HWAYCoreDataStack: NSObject {
                 .URLByAppendingPathComponent(stackName)
                 .URLByAppendingPathExtension(".sqlite")
 
-            guard let modelURL = bundle.URLForResource(stackName, withExtension: "momd") else {
-                fatalError("Model not found")
+            if !NSFileManager.defaultManager().fileExistsAtPath(storeURL.path!) {
+                let preloadedURL = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource(stackName, ofType: "storedata")!)
+                if NSFileManager.defaultManager().fileExistsAtPath(preloadedURL.path!) {
+                    try! NSFileManager.defaultManager().copyItemAtURL(preloadedURL, toURL: storeURL)
+                }
             }
 
-            guard let model = NSManagedObjectModel(contentsOfURL: modelURL) else {
+            var modelURL = bundle.URLForResource(stackName, withExtension: "momd")
+            if modelURL == nil {
+                modelURL = bundle.URLForResource(stackName, withExtension: "mom")
+
+                guard modelURL != nil else {
+                    fatalError("Could not find model")
+                }
+            }
+
+            guard let model = NSManagedObjectModel(contentsOfURL: modelURL!) else {
                 fatalError("Could not load model")
             }
 

@@ -19,7 +19,7 @@ extension HWAYManagedObjectType where Self: HWAYManagedObject {
     - returns: The existing or new managed object in the given context.
     */
     public static func findOrCreate(inContext context:NSManagedObjectContext, withExternalId externalId: NSNumber) -> Self {
-        let predicate = NSPredicate(format: "externalId == %@", externalId)
+        let predicate = NSPredicate(format: "%@ == %@", Self.externalIdField, externalId)
         let result: Self = findOrCreate(inContext: context, matchingPredicate:predicate)
         return result
     }
